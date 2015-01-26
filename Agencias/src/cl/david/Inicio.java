@@ -24,6 +24,8 @@ public class Inicio {
 			Proceso_Metodos pro = new Proceso_Metodos();
 			pro.setBdToTxt(DB_Type.SQLSERVER, qry, pathfile, false);
 			
+			System.out.println("Version_2");
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
